@@ -2,6 +2,9 @@
 
 Adds **Gruvbox Light** to Settings → General → Appearance.
 
+![Screenshot](screenshot.png)
+
+
 ## Permissions
 
 - `ui` — theme registration

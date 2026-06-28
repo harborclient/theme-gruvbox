@@ -26,7 +26,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "e08781a87ff5d2c72febf0b93a9dd15d91afb78c7fdbf63b316c6dce4bc0c3ab"
+      "sha256": "730bb2898eaa29d08e304920c08139ea16e8cef78e5dcb0dcbe8efd0c62ed60f"
     },
     {
       "path": "screenshot.png",
@@ -57,5 +57,5 @@
       "sha256": "dced0ea880bec6222ac9856d3d2ce11b91fd874298f3129c8b5944606dc73668"
     }
   ],
-  "signature": "+v35EGqQUxlwwVD9ya6ZrUltNr51gKNsBQrM1kjZQ+D3jOGOmB0/AxpN9oqVAInyt0fAX56Ng/oxyzYfU+l/BA=="
+  "signature": "SmnD9SoSWv0VUeCJi9kVPXu3JKDkTtKDSJoyR1pJnT2wJy4DW2QZ8TjVictFlX21sAmWvw256Y5Heyp7z7/vAA=="
 }
