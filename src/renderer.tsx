@@ -1,4 +1,4 @@
-import type { PluginContext } from "@harborclient/sdk";
+import { registerTheme, type PluginContext } from "@harborclient/sdk";
 
 /**
  * Activates the Gruvbox theme plugin and registers Gruvbox Light in Appearance.
@@ -6,27 +6,25 @@ import type { PluginContext } from "@harborclient/sdk";
  * @param hc - Renderer plugin context from the HarborClient host.
  */
 export function activate(hc: PluginContext): void {
-  hc.subscriptions.push(
-    hc.themes.register({
-      id: "gruvbox",
-      title: "Gruvbox Light",
-      type: "light",
-      colors: {
-        surface: "#fbf1c7",
-        sidebar: "#f2e5bc",
-        "sidebar-section": "#ebdbb2",
-        control: "#d5c4a1",
-        field: "rgba(0, 0, 0, 0.04)",
-        separator: "rgba(0, 0, 0, 0.08)",
-        text: "#3c3836",
-        "text-secondary": "#504945",
-        muted: "#928374",
-        accent: "#af3a03",
-        selection: "rgba(175, 58, 3, 0.18)",
-        danger: "#9d0006",
-        warning: "#b57614",
-        success: "#79740e",
-      },
-    })
-  );
+  registerTheme(hc, {
+    id: "gruvbox",
+    title: "Gruvbox Light",
+    type: "light",
+    colors: {
+      surface: "#fbf1c7",
+      sidebar: "#f2e5bc",
+      "sidebar-section": "#ebdbb2",
+      control: "#d5c4a1",
+      field: "rgba(0, 0, 0, 0.04)",
+      separator: "rgba(0, 0, 0, 0.08)",
+      text: "#3c3836",
+      "text-secondary": "#504945",
+      muted: "#928374",
+      accent: "#af3a03",
+      selection: "rgba(175, 58, 3, 0.18)",
+      danger: "#9d0006",
+      warning: "#b57614",
+      success: "#79740e",
+    },
+  });
 }
