@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pluginId": "com.harborclient.plugins.gruvbox",
-  "pluginVersion": "1.0.3",
+  "pluginVersion": "1.0.4",
   "algorithm": "Ed25519",
   "files": [
     {
@@ -10,19 +10,19 @@
     },
     {
       "path": "dist/renderer.js",
-      "sha256": "f58130cd159abe9319630db07f23cfcca50d7a8c73525f9f4f906639a59b603a"
+      "sha256": "9019f4b3533d012f49c1974201060752ec8043048470529c11b9cbc0678515e8"
     },
     {
       "path": "manifest.json",
-      "sha256": "d686947ee280f30d1c83c589236871ce4d2c11a8c649c0c6f3dfeebd92a68461"
+      "sha256": "d7be842c777ce33ed0201e4144016281de0dc23e5a5f628664b6efc555cfa7a4"
     },
     {
       "path": "package.json",
-      "sha256": "873231af1ad0531d78ec1ea41de500b0da3e3764dfd81eba72d5870b111c5210"
+      "sha256": "8502d29b5336b3ae98451f53239d4013737680872e97048ebe2a297dbd22650c"
     },
     {
       "path": "pnpm-lock.yaml",
-      "sha256": "d761af9eb8f77808546420b2d2b00beec7f73020bc060d2136dea61133eb03f1"
+      "sha256": "58b05dbdfa3d41550259bfbe95ab5abbc027514be2096ad8024e882ad8d36ecb"
     },
     {
       "path": "README.md",
@@ -45,6 +45,10 @@
       "sha256": "555f897860b881817f6aa66a933a38fb31388b461b8fa1e9e9b6126b67bc18e0"
     },
     {
+      "path": "scripts/publish.sh",
+      "sha256": "272abe246e7b12684741a9eb3a26928ec7dd9a62ad4e26b95fa104c32d516412"
+    },
+    {
       "path": "scripts/render-screenshot.sh",
       "sha256": "d2fe525f530446f4f53add2abcfed2ec7f11253a7d128608781ccd18487fbb25"
     },
@@ -61,5 +65,6 @@
       "sha256": "663c22f2cb634722bc1c1191c4808b53c89d930979d4936cb6d0a539f4476ac9"
     }
   ],
-  "signature": "CDSN6DiKynLMiA/msWyWxiX2QtRtHCudwjtUfIIPVzbsAF62y+kjWe+4RmMQxJVHuAuQIqyxEuKBUji/eVNHCw=="
+  "keyId": "com.harborclient.plugins.gruvbox",
+  "signature": "3z2Q50z5H7OjS1HPaEsBCLjobdX7xsNo69plX09b8cmr4ZiWH36IwBdo9bsG96XrGhth8hVpTpV6MMse/MdLCw=="
 }
