@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pluginId": "com.harborclient.plugins.gruvbox",
-  "pluginVersion": "1.0.4",
+  "pluginVersion": "1.0.5",
   "algorithm": "Ed25519",
   "files": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "path": "manifest.json",
-      "sha256": "d7be842c777ce33ed0201e4144016281de0dc23e5a5f628664b6efc555cfa7a4"
+      "sha256": "56574b078a95bd555492da86adb79b6a2ac0c5f462154529bf6e389eda29210c"
     },
     {
       "path": "package.json",
-      "sha256": "8502d29b5336b3ae98451f53239d4013737680872e97048ebe2a297dbd22650c"
+      "sha256": "f480e8676b7a20ba6a0836c2732e11bd859e479bf8c1935a4a99f36383209b3a"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -66,5 +66,5 @@
     }
   ],
   "keyId": "com.harborclient.plugins.gruvbox",
-  "signature": "3z2Q50z5H7OjS1HPaEsBCLjobdX7xsNo69plX09b8cmr4ZiWH36IwBdo9bsG96XrGhth8hVpTpV6MMse/MdLCw=="
+  "signature": "E5JIFPErtJhnXxrcpOdb350JUQasVG/zNx0RUItvA7sreDE7U3Bz3OvVk6fNHyAr0qVR5Tl4PEvrdEWh3zWsBA=="
 }
