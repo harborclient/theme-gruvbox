@@ -18,7 +18,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "b2462d88434d8c6a8e89a5c728802711db493b86db38690d6434ad867172847c"
+      "sha256": "ba3306878e0baadd26bb02999ab03e9d12a88990ae94506af9743acafc593601"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -46,5 +46,5 @@
     }
   ],
   "keyId": "com.harborclient.plugins.gruvbox",
-  "signature": "d/ieKqD/wn+nHKo3Y09m2gnJ5CWsIT+8o4KKSZQW4O40S/eIyFnGiq0fqgtZ1P1hY+0bud2RvbJDWXKxqlAABg=="
+  "signature": "67o9gYAsbLp9CIDDiVw8+buRoF5+tkjTHs4J8+sPwvom59wPeIDjBH/pwDIXTLI6L1J/VXqdYHmZCF2h7DKnBA=="
 }
