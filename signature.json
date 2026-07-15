@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pluginId": "com.harborclient.plugins.gruvbox",
-  "pluginVersion": "1.0.5",
+  "pluginVersion": "1.1.1",
   "algorithm": "Ed25519",
   "files": [
     {
@@ -9,32 +9,28 @@
       "sha256": "88ad380decbd9a1a6659c573833c96932dab32e7e0e88fa3353c98f758cd10b3"
     },
     {
-      "path": "dist/renderer.js",
-      "sha256": "9019f4b3533d012f49c1974201060752ec8043048470529c11b9cbc0678515e8"
+      "path": "exported.json",
+      "sha256": "0b1c1870a89282d72f05cd46a3c44abd3fc2aece985caa1b6652c81ed9d9d708"
     },
     {
       "path": "manifest.json",
-      "sha256": "56574b078a95bd555492da86adb79b6a2ac0c5f462154529bf6e389eda29210c"
+      "sha256": "57b566f13299c8743b0265d31deecc1abc4beb8c9aca8fd14b1dfa1f912c98e5"
     },
     {
       "path": "package.json",
-      "sha256": "f480e8676b7a20ba6a0836c2732e11bd859e479bf8c1935a4a99f36383209b3a"
+      "sha256": "b2462d88434d8c6a8e89a5c728802711db493b86db38690d6434ad867172847c"
     },
     {
       "path": "pnpm-lock.yaml",
-      "sha256": "58b05dbdfa3d41550259bfbe95ab5abbc027514be2096ad8024e882ad8d36ecb"
+      "sha256": "cd2981626c746e857cd0ffb1625daedcb2ddb9342eecd1f78125c5a55bc97798"
     },
     {
       "path": "README.md",
-      "sha256": "730bb2898eaa29d08e304920c08139ea16e8cef78e5dcb0dcbe8efd0c62ed60f"
+      "sha256": "aa27668518a1f4b1dd350a084da466c39156598a4329e9e49e0f3c65969ccc9a"
     },
     {
       "path": "screenshot.png",
       "sha256": "298a79d013865436fed22965b1580623729141a12afd89930c3f8a20e1f6d04d"
-    },
-    {
-      "path": "scripts/build.mjs",
-      "sha256": "6bca52efb2dbbaa84dd0efc9fd0fb02a8a9c59dd666756b4006b2f86ba902539"
     },
     {
       "path": "scripts/plugin-sign.ts",
@@ -46,25 +42,9 @@
     },
     {
       "path": "scripts/publish.sh",
-      "sha256": "272abe246e7b12684741a9eb3a26928ec7dd9a62ad4e26b95fa104c32d516412"
-    },
-    {
-      "path": "scripts/render-screenshot.sh",
-      "sha256": "d2fe525f530446f4f53add2abcfed2ec7f11253a7d128608781ccd18487fbb25"
-    },
-    {
-      "path": "scripts/screenshot-marketing.html",
-      "sha256": "079aa3f064d79de4533ee84176d927bfa5c05085d8834b144d43e0db4f0898ef"
-    },
-    {
-      "path": "src/renderer.tsx",
-      "sha256": "8c488235b5b9e4c201340ad2ea9a37fb768d66077057d4f11a6b6cd8fe926016"
-    },
-    {
-      "path": "tsconfig.json",
-      "sha256": "663c22f2cb634722bc1c1191c4808b53c89d930979d4936cb6d0a539f4476ac9"
+      "sha256": "dc3b65fefa4ab9c395de78808bedaca41a6f49a45baecea878f8db8c24ebd2f6"
     }
   ],
   "keyId": "com.harborclient.plugins.gruvbox",
-  "signature": "E5JIFPErtJhnXxrcpOdb350JUQasVG/zNx0RUItvA7sreDE7U3Bz3OvVk6fNHyAr0qVR5Tl4PEvrdEWh3zWsBA=="
+  "signature": "d/ieKqD/wn+nHKo3Y09m2gnJ5CWsIT+8o4KKSZQW4O40S/eIyFnGiq0fqgtZ1P1hY+0bud2RvbJDWXKxqlAABg=="
 }
