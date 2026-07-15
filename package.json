@@ -7,8 +7,8 @@
     "dev": "node scripts/build.mjs --watch",
     "screenshot": "bash scripts/render-screenshot.sh",
     "pack": "pnpm build && zip -r ../gruvbox.hcp manifest.json README.md assets dist",
-    "plugin:sign": "node --experimental-strip-types scripts/plugin-sign.ts",
-    "plugin:verify": "node --experimental-strip-types scripts/plugin-verify.ts"
+    "sign": "node --experimental-strip-types scripts/plugin-sign.ts",
+    "verify": "node --experimental-strip-types scripts/plugin-verify.ts"
   },
   "dependencies": {
     "@harborclient/sdk": "^1.0.33"
